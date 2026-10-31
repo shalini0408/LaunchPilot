@@ -5,43 +5,53 @@ React + TypeScript + Vite, FastAPI, SQLite/SQLAlchemy, and the existing OpenAI s
 
 ## Run locally
 
-Python 3.11+ and Node 22.14+ are required (tested with Python 3.14).
+To run LaunchPilot locally, open a terminal in your **LaunchPilot** folder.
 
-```sh
-# Project root — first-time setup
+**1. Install backend dependencies**
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r backend/requirements-dev.txt
-# Only if backend/.env does not already exist:
-cp -n backend/.env.example backend/.env
-cd frontend
-npm ci
+pip install -r backend/requirements.txt
 ```
 
-Start the applications in separate terminals:
+**2. Configure API keys**
 
-```sh
-# Project root
-source .venv/bin/activate
+Edit **`backend/.env`**. If it doesn’t exist, create it by copying `backend/.env.example`.
+
+Keep your existing working keys. For OpenAI with Tavily, the relevant settings are:
+
+```dotenv
+OPENAI_API_KEY=your_actual_openai_key
+OPENAI_MODEL=gpt-4o-mini
+SEARCH_PROVIDER=tavily
+TAVILY_API_KEY=your_actual_tavily_key
+COOKIE_SECURE=false
+```
+
+For local setup, leave `DATABASE_URL` unset to use `backend/launchpilot.db`.
+
+**3. Start the backend**
+
+In the same terminal:
+
+```bash
 python -m uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-```sh
-# Project root
+**4. Start the frontend**
+
+Open a **second terminal** in the LaunchPilot folder:
+
+```bash
 cd frontend
+npm ci
 npm run dev
 ```
 
-Open **http://127.0.0.1:5173**. Vite forwards `/api` to FastAPI at port 8000. API documentation: **http://127.0.0.1:8000/docs**. `VITE_API_PROXY` can override the development backend target. A production frontend needs a same-origin `/api` reverse proxy.
+**5. Open the app**
 
+Visit **http://127.0.0.1:5173**.
 
-```dotenv
-OPENAI_API_KEY=
-OPENAI_MODEL=gpt-4o-mini
-ADVISOR_MODEL=gpt-4o-mini
-ADVISOR_TIMEOUT_SECONDS=25
-ADVISOR_RETRIES=1
-SEARCH_PROVIDER=brave
-BRAVE_SEARCH_API_KEY=
-TAVILY_API_KEY=
+Keep both terminals running. SQLite initializes automatically. After changing `.env`, restart the backend. Press **Ctrl+C** in each terminal to stop the app.
 ```
