@@ -1,0 +1,746 @@
+{
+  "industries": {
+    "bakery": {
+      "name": "Bakery",
+      "icon": "\ud83e\udd50",
+      "question": "How would you like to run your bakery?",
+      "models": [
+        {
+          "id": "home",
+          "name": "Home-based bakery",
+          "icon": "\ud83c\udfe0",
+          "description": "Start from an eligible home kitchen, subject to product and local restrictions.",
+          "points": [
+            "Potentially lower premises costs",
+            "Product and sales limitations may apply",
+            "Cottage food eligibility must be checked"
+          ]
+        },
+        {
+          "id": "store",
+          "name": "Storefront bakery",
+          "icon": "\ud83c\udfea",
+          "description": "Open a physical retail bakery for walk-in customers.",
+          "points": [
+            "Retail space and fit-out expenses",
+            "Zoning and health permit considerations",
+            "Inspections may be needed"
+          ]
+        },
+        {
+          "id": "shared_kitchen",
+          "name": "Shared commercial kitchen",
+          "icon": "\ud83c\udf5e",
+          "description": "Explore renting a commercial kitchen rather than a dedicated storefront.",
+          "points": [
+            "Compare rental access and scheduling",
+            "Plan production, storage and sales channels",
+            "Confirm kitchen and operator approvals"
+          ]
+        }
+      ],
+      "steps": {
+        "home": [
+          "Define your baked goods and sales channels",
+          "Check cottage food product eligibility",
+          "Choose business structure and name",
+          "Review home-based food registration and permits",
+          "Review tax and local business obligations",
+          "Prepare launch operations"
+        ],
+        "store": [
+          "Define products and operating model",
+          "Review premises and zoning before leasing",
+          "Choose business structure and name",
+          "Review retail food facility permits",
+          "Check inspections and food safety requirements",
+          "Review tax, staffing and opening requirements"
+        ],
+        "shared_kitchen": [
+          "Evaluate shared kitchen access and production needs",
+          "Review premises and zoning before leasing",
+          "Choose business structure and name",
+          "Review retail food facility permits",
+          "Check inspections and food safety requirements",
+          "Review tax, staffing and opening requirements"
+        ]
+      },
+      "requirements": {
+        "home": [
+          [
+            "Cottage food eligibility",
+            "Check whether your specific products and sales methods qualify under current California rules.",
+            "California Department of Public Health",
+            "https://www.cdph.ca.gov/Programs/CEH/DFDCS/Pages/FDBPrograms/FoodSafetyProgram/CottageFoodOperations.aspx"
+          ],
+          [
+            "Local business registration",
+            "Check whether city business registration applies to your activities.",
+            "SF Treasurer & Tax Collector",
+            "https://www.sftreasurer.org/business"
+          ],
+          [
+            "Business structure",
+            "Compare sole proprietorship and registered entity options for your circumstances.",
+            "California Secretary of State",
+            "https://www.sos.ca.gov/business-programs/business-entities"
+          ]
+        ],
+        "store": [
+          [
+            "Zoning and permitted use",
+            "Confirm whether a bakery is allowed at the proposed premises before signing a lease.",
+            "San Francisco Planning",
+            "https://sfplanning.org/"
+          ],
+          [
+            "Retail food facility permits",
+            "Confirm applicable health permits, plan review and inspection steps for the operation.",
+            "San Francisco Department of Public Health",
+            "https://www.sf.gov/departments/department-public-health"
+          ],
+          [
+            "Business registration",
+            "Review local registration and applicable taxes.",
+            "SF Treasurer & Tax Collector",
+            "https://www.sftreasurer.org/business"
+          ],
+          [
+            "Entity formation",
+            "Review business structure, name and state registration options.",
+            "California Secretary of State",
+            "https://www.sos.ca.gov/business-programs/business-entities"
+          ]
+        ],
+        "shared_kitchen": [
+          [
+            "Zoning and permitted use",
+            "Confirm whether a bakery is allowed at the proposed premises before signing a lease.",
+            "San Francisco Planning",
+            "https://sfplanning.org/"
+          ],
+          [
+            "Retail food facility permits",
+            "Confirm applicable health permits, plan review and inspection steps for the operation.",
+            "San Francisco Department of Public Health",
+            "https://www.sf.gov/departments/department-public-health"
+          ],
+          [
+            "Business registration",
+            "Review local registration and applicable taxes.",
+            "SF Treasurer & Tax Collector",
+            "https://www.sftreasurer.org/business"
+          ],
+          [
+            "Entity formation",
+            "Review business structure, name and state registration options.",
+            "California Secretary of State",
+            "https://www.sos.ca.gov/business-programs/business-entities"
+          ]
+        ]
+      }
+    },
+    "software": {
+      "name": "Software company",
+      "icon": "\ud83d\udcbb",
+      "question": "What kind of software business are you building?",
+      "models": [
+        {
+          "id": "saas",
+          "name": "SaaS product",
+          "icon": "\u2601\ufe0f",
+          "description": "Build and sell access to a subscription-based software product.",
+          "points": [
+            "Subscription billing and terms",
+            "Privacy and data handling",
+            "IP ownership and vendor contracts"
+          ]
+        },
+        {
+          "id": "agency",
+          "name": "Software services",
+          "icon": "\ud83e\uddd1\u200d\ud83d\udcbb",
+          "description": "Provide software development or consulting services to clients.",
+          "points": [
+            "Client agreements and scope",
+            "IP assignment and liability",
+            "Business and tax registrations"
+          ]
+        },
+        {
+          "id": "custom",
+          "name": "Custom software development",
+          "icon": "\ud83d\udee0\ufe0f",
+          "description": "Build tailored software for individual clients.",
+          "points": [
+            "Project scoping and delivery capacity",
+            "Client acquisition and support",
+            "Review contracts and ownership of work"
+          ]
+        }
+      ],
+      "steps": {
+        "saas": [
+          "Define customers and product offering",
+          "Choose business structure and name",
+          "Review privacy and data practices",
+          "Draft product terms and customer agreements",
+          "Review tax and billing obligations",
+          "Plan security and launch readiness"
+        ],
+        "agency": [
+          "Define services and target customers",
+          "Choose business structure and name",
+          "Prepare client contracts and IP terms",
+          "Review business and tax registration",
+          "Set up invoicing and recordkeeping",
+          "Prepare delivery and launch operations"
+        ],
+        "custom": [
+          "Define custom development scope and client needs",
+          "Choose business structure and name",
+          "Prepare client contracts and IP terms",
+          "Review business and tax registration",
+          "Set up invoicing and recordkeeping",
+          "Prepare delivery and launch operations"
+        ]
+      },
+      "requirements": {
+        "saas": [
+          [
+            "Entity formation",
+            "Determine the business structure and state formation steps that fit your situation.",
+            "California Secretary of State",
+            "https://www.sos.ca.gov/business-programs/business-entities"
+          ],
+          [
+            "Privacy obligations",
+            "Identify privacy laws and disclosures that may apply based on users, data and scale.",
+            "California Privacy Protection Agency",
+            "https://cppa.ca.gov/"
+          ],
+          [
+            "Business and tax registration",
+            "Review registration and applicable tax obligations.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ]
+        ],
+        "agency": [
+          [
+            "Entity formation",
+            "Review entity and business name requirements.",
+            "California Secretary of State",
+            "https://www.sos.ca.gov/business-programs/business-entities"
+          ],
+          [
+            "Contracts and IP",
+            "Review contract terms, deliverables and ownership of work with qualified counsel.",
+            "U.S. Small Business Administration",
+            "https://www.sba.gov/"
+          ],
+          [
+            "Business and tax registration",
+            "Review registrations and relevant tax obligations.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ]
+        ],
+        "custom": [
+          [
+            "Entity formation",
+            "Review entity and business name requirements.",
+            "California Secretary of State",
+            "https://www.sos.ca.gov/business-programs/business-entities"
+          ],
+          [
+            "Contracts and IP",
+            "Review contract terms, deliverables and ownership of work with qualified counsel.",
+            "U.S. Small Business Administration",
+            "https://www.sba.gov/"
+          ],
+          [
+            "Business and tax registration",
+            "Review registrations and relevant tax obligations.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ]
+        ]
+      }
+    },
+    "ecommerce": {
+      "name": "E-commerce",
+      "icon": "\ud83d\udecd\ufe0f",
+      "question": "How will you sell your products?",
+      "models": [
+        {
+          "id": "own",
+          "name": "Your own online store",
+          "icon": "\ud83d\uded2",
+          "description": "Sell through a branded website with direct customer relationships.",
+          "points": [
+            "Website, payments and fulfillment",
+            "Returns and consumer disclosures",
+            "Sales tax and product compliance"
+          ]
+        },
+        {
+          "id": "marketplace",
+          "name": "Online marketplace",
+          "icon": "\ud83d\udce6",
+          "description": "Sell through an established marketplace platform.",
+          "points": [
+            "Marketplace policies and fees",
+            "Product restrictions and labeling",
+            "Tax collection responsibilities vary"
+          ]
+        },
+        {
+          "id": "dropshipping",
+          "name": "Dropshipping",
+          "icon": "\ud83d\ude9a",
+          "description": "Explore selling products fulfilled by suppliers.",
+          "points": [
+            "Verify suppliers and delivery reliability",
+            "Test customer support and returns",
+            "Check product and tax obligations"
+          ]
+        },
+        {
+          "id": "print_on_demand",
+          "name": "Print-on-demand",
+          "icon": "\ud83c\udfa8",
+          "description": "Explore products made and fulfilled after each order.",
+          "points": [
+            "Sample product quality before selling",
+            "Compare production and fulfillment terms",
+            "Check design rights and product rules"
+          ]
+        },
+        {
+          "id": "inventory",
+          "name": "Own inventory",
+          "icon": "\ud83d\udce6",
+          "description": "Buy or make inventory and manage stock and fulfillment.",
+          "points": [
+            "Validate suppliers and inventory commitments",
+            "Plan storage and fulfillment",
+            "Verify product-specific obligations"
+          ]
+        }
+      ],
+      "steps": {
+        "own": [
+          "Choose products and suppliers",
+          "Validate product and labeling rules",
+          "Choose business structure and name",
+          "Review sales tax and business registrations",
+          "Create store policies and fulfillment plan",
+          "Prepare launch and customer support"
+        ],
+        "marketplace": [
+          "Choose products and marketplace",
+          "Check marketplace product restrictions",
+          "Choose business structure and name",
+          "Review sales tax responsibilities",
+          "Prepare product listings and fulfillment",
+          "Launch and monitor compliance"
+        ],
+        "dropshipping": [
+          "Validate dropshipping suppliers and delivery assumptions",
+          "Validate product and labeling rules",
+          "Choose business structure and name",
+          "Review sales tax and business registrations",
+          "Create store policies and fulfillment plan",
+          "Prepare launch and customer support"
+        ],
+        "print_on_demand": [
+          "Validate print-on-demand samples and fulfillment",
+          "Validate product and labeling rules",
+          "Choose business structure and name",
+          "Review sales tax and business registrations",
+          "Create store policies and fulfillment plan",
+          "Prepare launch and customer support"
+        ],
+        "inventory": [
+          "Plan owned inventory and supplier terms",
+          "Validate product and labeling rules",
+          "Choose business structure and name",
+          "Review sales tax and business registrations",
+          "Create store policies and fulfillment plan",
+          "Prepare launch and customer support"
+        ]
+      },
+      "requirements": {
+        "own": [
+          [
+            "Seller and tax obligations",
+            "Determine where registrations and sales tax collection may be required.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ],
+          [
+            "Consumer disclosures",
+            "Review returns, advertising and consumer protection obligations.",
+            "California Attorney General",
+            "https://oag.ca.gov/consumers"
+          ],
+          [
+            "Product safety",
+            "Check whether your specific product category has safety or labeling rules.",
+            "U.S. Consumer Product Safety Commission",
+            "https://www.cpsc.gov/"
+          ]
+        ],
+        "marketplace": [
+          [
+            "Marketplace seller rules",
+            "Review seller agreements and restricted product categories on your selected marketplace.",
+            "U.S. Small Business Administration",
+            "https://www.sba.gov/"
+          ],
+          [
+            "Tax responsibilities",
+            "Understand marketplace facilitator rules and any seller obligations.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ],
+          [
+            "Product safety",
+            "Review product-category restrictions and safety requirements.",
+            "U.S. Consumer Product Safety Commission",
+            "https://www.cpsc.gov/"
+          ]
+        ],
+        "dropshipping": [
+          [
+            "Seller and tax obligations",
+            "Determine where registrations and sales tax collection may be required.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ],
+          [
+            "Consumer disclosures",
+            "Review returns, advertising and consumer protection obligations.",
+            "California Attorney General",
+            "https://oag.ca.gov/consumers"
+          ],
+          [
+            "Product safety",
+            "Check whether your specific product category has safety or labeling rules.",
+            "U.S. Consumer Product Safety Commission",
+            "https://www.cpsc.gov/"
+          ]
+        ],
+        "print_on_demand": [
+          [
+            "Seller and tax obligations",
+            "Determine where registrations and sales tax collection may be required.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ],
+          [
+            "Consumer disclosures",
+            "Review returns, advertising and consumer protection obligations.",
+            "California Attorney General",
+            "https://oag.ca.gov/consumers"
+          ],
+          [
+            "Product safety",
+            "Check whether your specific product category has safety or labeling rules.",
+            "U.S. Consumer Product Safety Commission",
+            "https://www.cpsc.gov/"
+          ]
+        ],
+        "inventory": [
+          [
+            "Seller and tax obligations",
+            "Determine where registrations and sales tax collection may be required.",
+            "California Department of Tax and Fee Administration",
+            "https://www.cdtfa.ca.gov/"
+          ],
+          [
+            "Consumer disclosures",
+            "Review returns, advertising and consumer protection obligations.",
+            "California Attorney General",
+            "https://oag.ca.gov/consumers"
+          ],
+          [
+            "Product safety",
+            "Check whether your specific product category has safety or labeling rules.",
+            "U.S. Consumer Product Safety Commission",
+            "https://www.cpsc.gov/"
+          ]
+        ]
+      }
+    },
+    "other": {
+      "name": "Other business",
+      "icon": "\u2726",
+      "question": "How will you deliver your product or service?",
+      "models": [
+        {
+          "id": "service",
+          "name": "Services business",
+          "icon": "\ud83e\udd1d",
+          "description": "Explore delivering services directly to customers.",
+          "points": [
+            "Validate customer needs",
+            "Plan delivery capacity",
+            "Verify activity-specific rules"
+          ]
+        },
+        {
+          "id": "product",
+          "name": "Product business",
+          "icon": "\ud83d\udce6",
+          "description": "Explore making or reselling products.",
+          "points": [
+            "Validate products and suppliers",
+            "Plan fulfillment",
+            "Verify product-specific rules"
+          ]
+        }
+      ],
+      "steps": {
+        "service": [
+          "Define business activities and target customers",
+          "Choose business structure and name",
+          "Validate customer acquisition assumptions",
+          "Review activity-specific obligations",
+          "Plan records and finances",
+          "Prepare launch operations"
+        ],
+        "product": [
+          "Define business activities and target customers",
+          "Choose business structure and name",
+          "Validate customer acquisition assumptions",
+          "Review activity-specific obligations",
+          "Plan records and finances",
+          "Prepare launch operations"
+        ]
+      },
+      "requirements": {
+        "service": [],
+        "product": []
+      }
+    },
+    "coffee": {
+      "name": "Coffee shop",
+      "icon": "\u2615",
+      "question": "How would you like to serve your coffee customers?",
+      "models": [
+        {
+          "id": "storefront",
+          "name": "Traditional storefront",
+          "icon": "\ud83c\udfea",
+          "description": "A dedicated shop with seating or takeaway service. Compare premises, staffing and operating commitments.",
+          "points": [
+            "Dedicated customer experience",
+            "Premises and fit-out commitments to validate",
+            "Check address-specific use and food-service requirements"
+          ]
+        },
+        {
+          "id": "kiosk",
+          "name": "Coffee kiosk",
+          "icon": "\u2615",
+          "description": "A compact counter in a host location. Investigate access, host agreements and customer flow.",
+          "points": [
+            "Smaller service footprint to evaluate",
+            "Dependence on a host location",
+            "Verify utilities, storage and operating permissions"
+          ]
+        },
+        {
+          "id": "mobile_cart",
+          "name": "Mobile coffee cart",
+          "icon": "\ud83d\uded2",
+          "description": "A movable service setup. Investigate equipment, water, approved locations and mobility constraints.",
+          "points": [
+            "Test different service locations where permitted",
+            "Transport and equipment planning",
+            "Verify mobile-service rules and location approvals"
+          ]
+        }
+      ],
+      "steps": {
+        "storefront": [
+          "Define your coffee products and service model",
+          "Choose business structure and name",
+          "Review premises and zoning before leasing",
+          "Review food and beverage permits and inspections",
+          "Review tax and staffing obligations",
+          "Prepare launch operations"
+        ],
+        "kiosk": [
+          "Define your coffee products and service model",
+          "Choose business structure and name",
+          "Review kiosk location and host agreement",
+          "Review food and beverage permits and inspections",
+          "Review tax and billing obligations",
+          "Prepare launch operations"
+        ],
+        "mobile_cart": [
+          "Define your coffee products and service model",
+          "Choose business structure and name",
+          "Review mobile cart equipment and operating locations",
+          "Review mobile food and beverage permits",
+          "Review tax and local business obligations",
+          "Prepare launch operations"
+        ]
+      },
+      "requirements": {
+        "storefront": [],
+        "kiosk": [],
+        "mobile_cart": []
+      }
+    }
+  },
+  "guides": {
+    "products": {
+      "goal": "Decide what you will sell and who you will sell it to.",
+      "actions": [
+        "List your initial products or services and identify your target customer.",
+        "Choose how customers will purchase: online, in person, subscription or contract.",
+        "Check product-specific restrictions before committing to suppliers or inventory."
+      ],
+      "prepare": [
+        "Product or service list",
+        "Target customer and price range",
+        "Sales and delivery channels"
+      ],
+      "proof": "You have a written offer, customer profile and a shortlist of restrictions to verify."
+    },
+    "location": {
+      "goal": "Confirm the location can support your intended business before making commitments.",
+      "actions": [
+        "Write down the exact proposed address and intended activities.",
+        "Check local permitted use, zoning, lease restrictions and any building approvals.",
+        "Contact the relevant city department to confirm uncertainties before signing a lease."
+      ],
+      "prepare": [
+        "Candidate address",
+        "Description of operations and hours",
+        "Lease or landlord questions"
+      ],
+      "proof": "You have recorded the location review and any required agency confirmation."
+    },
+    "entity": {
+      "goal": "Choose how your business will be legally organized.",
+      "actions": [
+        "Compare the implications of a sole proprietorship, LLC or corporation for your situation.",
+        "Check name availability and any naming restrictions with the relevant state authority.",
+        "Identify any registered-agent, ownership or filing information required.",
+        "Use the state\u2019s official instructions or a qualified adviser before submitting filings."
+      ],
+      "prepare": [
+        "Preferred business names",
+        "Owner details",
+        "Business address and formation state"
+      ],
+      "proof": "You have chosen a structure and documented the registration steps and required information."
+    },
+    "permit": {
+      "goal": "Find out which registrations, permits or licenses apply to this operation.",
+      "actions": [
+        "Review the legal checklist for your specific industry and business model.",
+        "Open the linked government agency sources and verify applicability.",
+        "Write down the application, required documents, fee and expected processing time when available.",
+        "Apply through the official agency website when ready."
+      ],
+      "prepare": [
+        "Business activity and products",
+        "Location and premises details",
+        "Business registration information"
+      ],
+      "proof": "You have identified applicable requirements and recorded submission or approval status."
+    },
+    "privacy": {
+      "goal": "Document what information your business collects and how it is used.",
+      "actions": [
+        "List customer, employee and website data you plan to collect.",
+        "Determine which privacy and consumer-protection obligations may apply.",
+        "Draft policies that accurately reflect your real practices and get appropriate review."
+      ],
+      "prepare": [
+        "Data inventory",
+        "Third-party vendors",
+        "Customer locations"
+      ],
+      "proof": "You have documented your data practices and a plan to review applicable obligations."
+    },
+    "contract": {
+      "goal": "Define clear terms for customers, suppliers or clients.",
+      "actions": [
+        "List the parties, scope, pricing, responsibilities and cancellation terms.",
+        "Identify intellectual property, refund, liability and dispute questions.",
+        "Use qualified legal review where needed before signing or publishing."
+      ],
+      "prepare": [
+        "Scope and deliverables",
+        "Pricing and payment terms",
+        "Ownership and refund expectations"
+      ],
+      "proof": "You have a reviewed agreement or a list of issues to resolve."
+    },
+    "finance": {
+      "goal": "Prepare the registrations and processes needed to handle money.",
+      "actions": [
+        "Check applicable tax registrations and reporting obligations.",
+        "Determine what banking, invoicing and recordkeeping setup is needed.",
+        "Document due dates and who will maintain the records."
+      ],
+      "prepare": [
+        "Business structure",
+        "Sales channels and locations",
+        "Estimated revenue and expenses"
+      ],
+      "proof": "You have a registration checklist and a recordkeeping process."
+    },
+    "operations": {
+      "goal": "Prepare to operate safely and reliably.",
+      "actions": [
+        "List operational equipment, people and vendors needed for launch.",
+        "Check industry-specific safety, inspection or staffing obligations.",
+        "Run a small end-to-end test of ordering, delivery and support."
+      ],
+      "prepare": [
+        "Equipment and vendor list",
+        "Opening-day checklist",
+        "Customer support process"
+      ],
+      "proof": "You have tested the core customer experience and identified unresolved issues."
+    },
+    "general": {
+      "goal": "Turn this roadmap item into a concrete deliverable.",
+      "actions": [
+        "Write down the decision or outcome this task requires.",
+        "Collect the business information and documents involved.",
+        "Review any relevant official requirements or professional guidance.",
+        "Save your findings and only mark complete when the outcome is achieved."
+      ],
+      "prepare": [
+        "Business profile",
+        "Relevant documents and questions",
+        "Any official source links"
+      ],
+      "proof": "You can point to a saved decision, document or completed action."
+    }
+  },
+  "ein_guide": {
+    "goal": "Determine whether you need a federal Employer Identification Number and, if applicable, apply directly through the IRS.",
+    "actions": [
+      "Check IRS guidance on whether your business needs an EIN.",
+      "If forming an LLC or corporation, complete state formation first, as directed by the IRS.",
+      "Gather responsible party details, legal name, entity type, address and reason for applying.",
+      "Use the free IRS EIN application or the appropriate IRS method; save your confirmation notice."
+    ],
+    "prepare": [
+      "Legal business name and entity type",
+      "Responsible party and taxpayer identification information",
+      "Business address and formation details"
+    ],
+    "proof": "You have confirmed whether an EIN is needed and, if applicable, retained the IRS EIN confirmation notice."
+  }
+}

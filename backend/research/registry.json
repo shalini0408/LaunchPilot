@@ -1,0 +1,192 @@
+[
+  {
+    "domain": "irs.gov",
+    "agency": "Internal Revenue Service",
+    "level": "federal"
+  },
+  {
+    "domain": "sba.gov",
+    "agency": "U.S. Small Business Administration",
+    "level": "federal"
+  },
+  {
+    "domain": "fda.gov",
+    "agency": "U.S. Food and Drug Administration",
+    "level": "federal"
+  },
+  {
+    "domain": "ftc.gov",
+    "agency": "Federal Trade Commission",
+    "level": "federal"
+  },
+  {
+    "domain": "dol.gov",
+    "agency": "U.S. Department of Labor",
+    "level": "federal"
+  },
+  {
+    "domain": "osha.gov",
+    "agency": "Occupational Safety and Health Administration",
+    "level": "federal"
+  },
+  {
+    "domain": "usda.gov",
+    "agency": "U.S. Department of Agriculture",
+    "level": "federal"
+  },
+  {
+    "domain": "epa.gov",
+    "agency": "Environmental Protection Agency",
+    "level": "federal"
+  },
+  {
+    "domain": "ca.gov",
+    "agency": "California state government",
+    "level": "state",
+    "state": "California"
+  },
+  {
+    "domain": "ny.gov",
+    "agency": "New York state government",
+    "level": "state",
+    "state": "New York"
+  },
+  {
+    "domain": "texas.gov",
+    "agency": "Texas state government",
+    "level": "state",
+    "state": "Texas"
+  },
+  {
+    "domain": "fl.gov",
+    "agency": "Florida state government",
+    "level": "state",
+    "state": "Florida"
+  },
+  {
+    "domain": "myflorida.com",
+    "agency": "Florida state government",
+    "level": "state",
+    "state": "Florida",
+    "verification_url": "https://www.usa.gov/states/florida"
+  },
+  {
+    "domain": "sf.gov",
+    "agency": "City and County of San Francisco",
+    "level": "local",
+    "state": "California",
+    "city": "San Francisco"
+  },
+  {
+    "domain": "sfplanning.org",
+    "agency": "San Francisco Planning Department",
+    "level": "local",
+    "state": "California",
+    "city": "San Francisco",
+    "verification_url": "https://catalog.data.gov/dataset/zoning-map-zoning-districts"
+  },
+  {
+    "domain": "sftreasurer.org",
+    "agency": "San Francisco Treasurer & Tax Collector",
+    "level": "local",
+    "state": "California",
+    "city": "San Francisco",
+    "verification_url": "https://www.sf.gov/sites/default/files/2022-04/Supplier%20Set-Up%20Process%20%28English%29.pdf"
+  },
+  {
+    "domain": "nyc.gov",
+    "agency": "New York City government",
+    "level": "local",
+    "state": "New York",
+    "city": "New York"
+  },
+  {
+    "domain": "acgov.org",
+    "agency": "Alameda County government",
+    "level": "county",
+    "state": "California",
+    "cities": [
+      "Oakland",
+      "Berkeley",
+      "Alameda",
+      "Fremont",
+      "Hayward",
+      "San Leandro"
+    ],
+    "verification_url": "https://www.alamedacountyca.gov/government/documents/ACResourceDirectory.pdf"
+  },
+  {
+    "domain": "alamedacountyca.gov",
+    "agency": "Alameda County government",
+    "level": "county",
+    "state": "California",
+    "cities": [
+      "Oakland",
+      "Berkeley",
+      "Alameda",
+      "Fremont",
+      "Hayward",
+      "San Leandro"
+    ]
+  },
+  {
+    "domain": "cdph.ca.gov",
+    "agency": "California Department of Public Health",
+    "level": "state",
+    "state": "California"
+  },
+  {
+    "domain": "sos.ca.gov",
+    "agency": "California Secretary of State",
+    "level": "state",
+    "state": "California"
+  },
+  {
+    "domain": "cdtfa.ca.gov",
+    "agency": "California Department of Tax and Fee Administration",
+    "level": "state",
+    "state": "California"
+  },
+  {
+    "domain": "cppa.ca.gov",
+    "agency": "California Privacy Protection Agency",
+    "level": "state",
+    "state": "California"
+  },
+  {
+    "domain": "virginia.gov",
+    "agency": "Virginia state government",
+    "level": "state",
+    "state": "Virginia"
+  },
+  {
+    "domain": "scc.virginia.gov",
+    "agency": "Virginia State Corporation Commission",
+    "level": "state",
+    "state": "Virginia"
+  },
+  {
+    "domain": "az.gov",
+    "agency": "Arizona state government",
+    "level": "state",
+    "state": "Arizona"
+  },
+  {
+    "domain": "azcc.gov",
+    "agency": "Arizona Corporation Commission",
+    "level": "state",
+    "state": "Arizona"
+  },
+  {
+    "domain": "azdor.gov",
+    "agency": "Arizona Department of Revenue",
+    "level": "state",
+    "state": "Arizona"
+  },
+  {
+    "domain": "azsos.gov",
+    "agency": "Arizona Secretary of State",
+    "level": "state",
+    "state": "Arizona"
+  }
+]
